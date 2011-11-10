@@ -27,7 +27,7 @@ Installation
 
 Author
 
-    G. C. Lee  <gc@iis.sinica.edu.tw>
+    Miao Long Lee  <miao.long.lee@gmail.com>
 
 Credits
 
