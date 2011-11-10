@@ -1,0 +1,11 @@
+<div tal:omit-tag="" metal:use-macro="here/main_template/macros/master">
+    <metal:fill_master_content fill-slot="content">
+
+    <span tal:omit-tag="" tal:define="macropath python:here.REQUEST.get('macropath');">
+        <span tal:omit-tag="" tal:condition="macropath">
+              <div metal:use-macro="python:path(macropath)"></div>
+        </span>
+    </span>
+
+    </metal:fill_master_content>
+</div>

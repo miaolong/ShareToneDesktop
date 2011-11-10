@@ -1,0 +1,24 @@
+body {
+	scrollbar-3dlight-color : #000000;
+	scrollbar-arrow-color : #000000;
+	scrollbar-base-color : #e6e6e6;
+	scrollbar-darkshadow-color : #000000;
+	scrollbar-face-color : #AC9E93;
+	scrollbar-highlight-color : #c0c0c0;
+	scrollbar-shadow-color : #000000;
+	scrollbar-track-color : #e6e6e6;
+	background-color: #B5A69C;
+	font-family: Verdana, Arial, sans-serif, Helvetica;  font-style: normal;  text-decoration: none;  color: #000000;
+	font-size: 11px;
+}
+
+.xF_button { background-color: #8c7b63;  border: 1px solid #000000;  font-family: Verdana, Arial, sans-serif, Helvetica;  font-style: normal;  text-decoration: none;  color: #ffffff;  font-size: 11px;}
+.xF_submit { background-color: #8c7b63;  border: 1px solid #000000;  font-family: Verdana, Arial, sans-serif, Helvetica;  font-style: normal;  text-decoration: none; color: #ffffff; font-size: 11px;}
+.xF_text { background-color: #FFFFFF;  border: 1px solid #000000;  font-family: Verdana, Arial, sans-serif, Helvetica;  font-style: normal;  text-decoration: none; font-size: 11px;}
+.xF_textarea { background-color: #FFFFFF;  border: 1px solid #000000;  font-family: Verdana, Arial, sans-serif, Helvetica;  font-style: normal;  text-decoration: none; font-size: 11px;}
+.xF_select { background-color: #C6BBB2;  border: 1px solid #000000;  font-family: Verdana, Arial, sans-serif, Helvetica;  font-style: normal; text-decoration: none; font-size: 11px;}
+.xF_title {color: #000000; font-size: 12px; font-family: Verdana, Arial, sans-serif, Helvetica;  font-style: normal;  text-decoration: none;}
+.xF_a_button:link, .xF_a_button:visited, .xF_a_button:hover, .xF_a_button:active { font-family: Verdana, Arial, sans-serif;  font-size: 11px; font-weight: normal; color: #ffffff; text-decoration:underline }
+
+a:link, a:visited, a:hover, a:active { font-family: Verdana, Arial, sans-serif;  font-size: 11px; font-weight: normal; color:#000000; text-decoration:underline }
+TD {color: #000000; font-size: 11px; font-family: Verdana, Arial, sans-serif, Helvetica;  font-style: normal;  text-decoration: none;}

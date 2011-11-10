@@ -1,0 +1,166 @@
+<!DOCTYPE HTML PUBLIC "-//SoftQuad Software//DTD HoTMetaL PRO 6.0::19990601::extensions to HTML 4.0//EN" "hmpro6.dtd">
+<HTML> 
+  <HEAD> 
+	 <TITLE>Test Menu</TITLE> <SCRIPT>	
+ var xDT = parent.xDT;
+ document.write('<link rel="stylesheet" type="text/css" href="' + xDT.resPath() + 'skins/' + xDT.dSkin() + '/' + xDT.dSkin() + '.css' + '">');
+ var left = 0;
+ var top = 0;
+ var pos = 'test:R:10';
+ function OpenUrl(url) {
+  //if (url == "http://" || url == "") {alert("invalid URL"); return false; }
+  if (url == "") {alert("invalid URL"); return false; }
+  var win = xDT.addWindow("",url,500,350,pos,document.form1.SelectWinSkin.value);
+  if (win.match(/^w/)) {
+   //setTimeout("xDT.url('" + win + "','" + url + "')",250);
+   xDT.url(win,url);
+   xDT.show(win);
+   left = xDT.prop(win,"wX") + 30;
+   top = xDT.prop(win,"wY") + 30;
+   pos = left + "," + top;
+  }
+  else alert("Unknow window: " + win);
+  return false;
+ }
+ function WriteHTML(hcode) {
+  var win = xDT.addWindow("",'HTML Code Window',300,200,pos,document.form1.SelectWinSkin.value);
+  if (win.match(/^w/)) {
+   xDT.html(win,hcode);
+   xDT.show(win);
+   left = xDT.prop(win,"wX") + 30;
+   top = xDT.prop(win,"wY") + 30;
+   pos = left + "," + top;
+
+  }
+  else alert("Unknow window: " + win);
+ }
+ function xPM_show() {
+  if (! xDT.dSkin().match(/DEFAULT|SBO/) ) {
+    xDT.alert("Full menu style currently only with DEFAULT and SAP skin");
+  }
+  else {
+   xDT.url(xDT.popupWindow(xDT.addWindow('menu','xPM beta',200,400,'test:R:20')),'./x-dt-menu.html');
+   xDT.show('menu');
+  }
+ }
+ parent.LOADED = 1;
+</SCRIPT> 
+  </HEAD> 
+  <BODY LEFTMARGIN="0" TOPMARGIN="0" MARGINWIDTH="0" MARGINHEIGHT="0"
+	BGCOLOR="#FFffff"> 
+	 <FORM NAME="form1" ONSUBMIT="return OpenUrl(document.form1.url.value)"> 
+		<TABLE CELLPADDING="5" CELLSPACING="0" ALIGN="CENTER"> 
+		  <TR> 
+			 <TD HEIGHT="20"></TD> 
+		  </TR> 
+		  <TR> 
+			 <TD CLASS="xF_Select"><B>Feature Demo</B>&nbsp;</TD> 
+		  </TR> 
+		  <TR> 
+			 <TD><INPUT CLASS="xF_button" TYPE="button" VALUE="Update"
+				ONCLICK="xDT.checkUpdate('center')">&nbsp;<INPUT CLASS="xF_button"
+				TYPE="button" VALUE="Manual" ONCLICK="xDT.docs()">&nbsp;<INPUT
+				CLASS="xF_button" TYPE="BUTTON" VALUE="xPM beta" ONCLICK="xPM_show()"
+				STYLE="background-color: #CF0000; color: #FFFFFF"></TD> 
+		  </TR> 
+		  <TR> 
+			 <TD> 
+				<SELECT CLASS="xF_select" NAME="SelectDesktop" SIZE="1"
+				 ONCHANGE="if (this.value) xDT.desktop.skin(this.value)"> 
+				  <OPTION VALUE="">Select Desktop Style</OPTION> 
+				  <OPTION VALUE="DEFAULT">Default</OPTION> 
+				  <OPTION VALUE="NONE">elmo (No Images)</OPTION> 
+				  <OPTION VALUE="OSX">OSX Server</OPTION> 
+				  <OPTION VALUE="OSXA">OSX Aqua</OPTION> 
+				  <OPTION VALUE="KDE">KDE</OPTION> 
+				  <OPTION VALUE="GNOME">Gnome simple</OPTION> 
+				  <OPTION VALUE="AEON">Gnome Aeon</OPTION> 
+				  <OPTION VALUE="XP">Windows XP</OPTION> 
+				  <OPTION VALUE="WIN">Windows 2000</OPTION> 
+				  <OPTION VALUE="SBO">SAP</OPTION> 
+				  <OPTION VALUE="REDHAT">Redhat</OPTION> 
+				  <OPTION VALUE="SUSE">Suse</OPTION> 
+				</SELECT></TD> 
+		  </TR> 
+		  <TR> 
+			 <TD><INPUT TYPE="TEXT" NAME="url"
+				VALUE="http://opensource.org" CLASS="xF_text" STYLE="width: 250px">&nbsp;<INPUT
+				TYPE="submit" VALUE="go" CLASS="xF_submit"><BR>(use full qualified url
+				http://....)</TD> 
+		  </TR> 
+		  <TR> 
+			 <TD> 
+				<SELECT CLASS="xF_select" NAME="SelectWinSkin" SIZE="1"> 
+				  <OPTION VALUE="">Select Window Skin</OPTION> 
+				  <OPTION VALUE="DEFAULT">Default</OPTION> 
+				  <OPTION VALUE="NONE">elmo (No Images)</OPTION> 
+				  <OPTION VALUE="OSX">OSX Server</OPTION> 
+				  <OPTION VALUE="OSXA">OSX Aqua</OPTION> 
+				  <OPTION VALUE="KDE">KDE</OPTION> 
+				  <OPTION VALUE="GNOME">Gnome simple</OPTION> 
+				  <OPTION VALUE="AEON">Gnome Aeon</OPTION> 
+				  <OPTION VALUE="XP">Windows XP</OPTION> 
+				  <OPTION VALUE="WIN">Windows 2000</OPTION> 
+				  <OPTION VALUE="SBO">SAP</OPTION> 
+				  <OPTION VALUE="REDHAT">Redhat</OPTION> 
+				  <OPTION VALUE="SUSE">Suse</OPTION> 
+				</SELECT></TD> 
+		  </TR> 
+		  <TR> 
+			 <TD CLASS="xF_Select"><B>Window operations</B></TD> 
+		  </TR> 
+		  <TR> 
+			 <TD><INPUT TYPE="button" NAME="mall"
+				ONCLICK="xDT.minimizeAllWindows('test');this.checked=false" CLASS="xF_button"
+				VALUE="Minimize all but me" STYLE="width: 150px">&nbsp;<INPUT CLASS="xF_button"
+				TYPE="button" VALUE="Info about all windows" ONCLICK="xDT.window.properties()"
+				STYLE="width: 150px"></TD> 
+		  </TR> 
+		  <TR> 
+			 <TD><INPUT TYPE="button" NAME="rall"
+				ONCLICK="xDT.restoreAllWindows();this.checked=false" CLASS="xF_button"
+				VALUE="Restore all" STYLE="width: 150px">&nbsp;<INPUT TYPE="button" NAME="aall"
+				ONCLICK="xDT.arrangeAllWindows(400,20,0,30,'test');this.checked=false"
+				CLASS="xF_button" VALUE="Arrange all" STYLE="width: 150px"></TD> 
+		  </TR> 
+		  <TR> 
+			 <TD><INPUT CLASS="xF_button" TYPE="button"
+				VALUE="This is a alert box" ONCLICK="xDT.alert(this.value)"
+				STYLE="width: 150px">&nbsp;<INPUT CLASS="xF_button" TYPE="button"
+				VALUE="This is a confirm box"
+				ONCLICK="xDT.confirm('To confirm or not confirm ?','xDT.alert(' + '\'you pushed OK\'' + ')','xDT.alert(' + '\'you pushed Cancel\'' + ')')"
+				STYLE="width: 150px"></TD> 
+		  </TR> 
+		  <TR> 
+			 <TD><TEXTAREA NAME="htext" STYLE="width: 300px; height: 40px" ROWS="3" COLS="20" CLASS="xF_textarea">This could be any HTML code in between the body tag</TEXTAREA><BR><INPUT CLASS="xF_button" TYPE="BUTTON" VALUE="show window"
+				ONCLICK="WriteHTML(document.form1.htext.value)" STYLE="width: 100px"></TD> 
+		  </TR> 
+		  <TR> 
+			 <TD><INPUT CLASS="xF_button" TYPE="button"
+				VALUE="xDT.calendar() - us"
+				ONCLICK="xDT.dateFormat(1);xDT.calendar(document.form1.dateus)"
+				STYLE="width: 150px">&nbsp;<INPUT TYPE="text" NAME="dateus" STYLE="width: 150"
+				CLASS="xF_text"></TD> 
+		  </TR> 
+		  <TR> 
+			 <TD><INPUT CLASS="xF_button" TYPE="button"
+				VALUE="xDT.calendar() - de"
+				ONCLICK="xDT.dateFormat(0);xDT.calendar(document.form1.datede)"
+				STYLE="width: 150px">&nbsp;<INPUT TYPE="text" NAME="datede" STYLE="width: 150"
+				CLASS="xF_text"></TD> 
+		  </TR> 
+		  <TR> 
+			 <TD><INPUT CLASS="xF_button" TYPE="button" VALUE="xDT.playSound()"
+				ONCLICK="xDT.playSound('start.mp3')" STYLE="width: 150px"></TD> 
+		  </TR> 
+		  <TR> 
+			 <TD><INPUT CLASS="xF_button" TYPE="button" VALUE="xDT.window.title()"
+				ONCLICK="xDT.window.title(xDT.window.name(window.name),document.form1.title.value.substring(0,35))"
+				STYLE="width: 150px">&nbsp;<INPUT TYPE="text" NAME="title" STYLE="width: 150"
+				CLASS="xF_text" VALUE="New Window Title"></TD> 
+		  </TR> 
+		  <TR> 
+			 <TD></TD> 
+		  </TR> 
+		</TABLE> </FORM> </BODY>
+</HTML>

@@ -1,0 +1,3 @@
+[default]
+title=winclose
+cache = HTTPCache

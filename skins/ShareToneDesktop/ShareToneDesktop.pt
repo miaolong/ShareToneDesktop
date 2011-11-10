@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>ShareTone Desktop</title>
+        <meta name="Generator" content="Designer: G. C. Lee (gc@iis.sinica.edu.tw)" />
+        <meta name="KeyWords" content="ShareTone, CMF, DHTML, Desktop, Ajax" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <!-- css library -->
+        <link rel="shortcut icon" href="favicon.ico" />
+        <link rel="stylesheet" type="text/css" href="ShareToneDesktop.css" />
+        <!-- common library -->
+        <script type="text/javascript" src="lib/common/config.js"></script>
+        <script type="text/javascript" src="lib/common/pngfix.js"></script>
+        <script type="text/javascript" src="lib/common/utils.js"></script>
+        <!-- window library -->
+        <!-- 
+        <script type="text/javascript" src="lib/x-desktop/xDT/skins/NONE/x-desktop_skin_NONE.js"></script>
+        <script type="text/javascript" src="lib/x-desktop/xDT/skins/WIN/x-desktop_skin_WIN.js"></script>
+        <script type="text/javascript" src="lib/x-desktop/xDT/skins/XP/x-desktop_skin_XP.js"></script>
+        <script type="text/javascript" src="lib/x-desktop/xDT/skins/OSX/x-desktop_skin_OSX.js"></script>
+        <script type="text/javascript" src="lib/x-desktop/xDT/skins/OSXA/x-desktop_skin_OSXA.js"></script>
+        <script type="text/javascript" src="lib/x-desktop/xDT/skins/KDE/x-desktop_skin_KDE.js"></script>
+        <script type="text/javascript" src="lib/x-desktop/xDT/skins/GNOME/x-desktop_skin_GNOME.js"></script>
+        <script type="text/javascript" src="lib/x-desktop/xDT/skins/SBO/x-desktop_skin_SBO.js"></script>
+        <script type="text/javascript" src="lib/x-desktop/xDT/skins/AEON/x-desktop_skin_AEON.js"></script>
+        <script type="text/javascript" src="lib/x-desktop/xDT/skins/REDHAT/x-desktop_skin_REDHAT.js"></script>
+        <script type="text/javascript" src="lib/x-desktop/xDT/skins/SUSE/x-desktop_skin_SUSE.js"></script>
+        <script type="text/javascript" src="lib/x-desktop/xDT/skins/DEFAULT/x-desktop_skin_DEFAULT.js"></script>
+        -->
+        <script type="text/javascript" src="lib/x-desktop/xDT/skins/SHARETONE/x-desktop_skin_SHARETONE.js"></script>                
+        <script type="text/javascript" src="lib/x-desktop/cbe_core.js"></script>
+        <script type="text/javascript" src="lib/x-desktop/cbe_event.js"></script>
+        <script type="text/javascript" src="lib/x-desktop/cbe_slide.js"></script>
+        <script type="text/javascript" src="lib/x-desktop/x-desktop_core.js"></script>
+        <link rel="stylesheet" type="text/css" href="lib/x-desktop/x-desktop.css" />
+        <!-- menu library  -->
+        <script type="text/javascript" src="lib/menu/sidemenu/sidemenu.js"></script>
+        <!-- icon library    -->
+        <link rel="stylesheet" type="text/css" href="lib/links/iconlinks.css" />
+        <script type="text/javascript" src="lib/links/iconlinks.js"></script>
+    </head>
+    <body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" bgcolor="#FFffff">
+        <script type="text/javascript" src="lib/custom/custom_desktop.js"></script>
+        <script type="text/javascript" src="lib/custom/custom_menu.js"></script>
+        <script type="text/javascript" src="lib/custom/custom_links.js"></script>
+    </body>
+</html>

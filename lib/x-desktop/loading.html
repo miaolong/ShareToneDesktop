@@ -1,0 +1,37 @@
+<!DOCTYPE HTML PUBLIC "-//SoftQuad Software//DTD HoTMetaL PRO 6.0::19990601::extensions to HTML 4.0//EN" "hmpro6.dtd">
+<HTML> 
+  <HEAD> 
+    <TITLE>System Nachricht</TITLE> <LINK REL="stylesheet" TYPE="text/css" HREF="./xDT/skins/DEFAULT/DEFAULT.css"> 
+<script>
+ var i=0;
+ var tout = 1000;
+ function CheckLoadStatus() {
+  self.focus();
+  if (window.opener.LOADED) window.close();
+  else {
+   (i > 99) ? i = 5 : i++;
+   if (i>1) document.getElementById("loading").innerHTML = "Application startup ... (" + i + ")<br>[" + window.opener.LOADMESSAGE + "]";
+   else document.getElementById("loading").innerHTML = "Application startup ... (" + i + ")";
+   setTimeout("CheckLoadStatus()",tout);
+   (tout < 250) ? tout = 250 : tout -=250;
+  }
+ }
+</script>    
+  </HEAD> 
+  <BODY LEFTMARGIN="10" TOPMARGIN="10" MARGINWIDTH="10" MARGINHEIGHT="10"> 
+    <TABLE CELLPADDING="10" CELLSPACING="0" ALIGN="CENTER" BORDER="1"> 
+      <TR VALIGN="MIDDLE"> 
+        <TD CLASS="xF_button" VALIGN="MIDDLE" ALIGN="CENTER"><B>System Information</B></TD> 
+      </TR> 
+      <TR VALIGN="TOP"> 
+        <TD VALIGN="MIDDLE" ALIGN="CENTER" CLASS="xF_error"> <B id="loading">Application startup ....</B><BR></TD> 
+      </TR>
+      <TR VALIGN="TOP">
+        <TD VALIGN="MIDDLE" ALIGN="CENTER">If window does not close automatically, click <A HREF="javascript: void(0)" ONCLICK="window.close()">here</A></TD>
+      </TR> 
+    </TABLE>
+<script>
+ CheckLoadStatus();
+</script>    
+     </BODY>
+</HTML>

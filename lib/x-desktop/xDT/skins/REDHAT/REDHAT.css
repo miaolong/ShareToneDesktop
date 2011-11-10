@@ -1,0 +1,24 @@
+body {
+	scrollbar-3dlight-color : #555555;
+	scrollbar-arrow-color : #FFFFFF;
+	scrollbar-base-color : #FFFFFF;
+	scrollbar-darkshadow-color : #ffffff;
+	scrollbar-face-color : #B11614;
+	scrollbar-highlight-color : #B11614;
+	scrollbar-shadow-color : #555555;
+	scrollbar-track-color : #FFFFFF;
+	background-color: #F2F2F2;
+	font-family: Verdana, Arial, sans-serif, Helvetica;  font-style: normal;  text-decoration: none;  color: #000000;
+	font-size: 11px;
+}
+
+.xF_button { background-color: #B11614;  border: 1px solid #000000;  font-family: Verdana, Arial, sans-serif, Helvetica;  font-style: normal;  text-decoration: none;  color: #ffffff;  font-size: 11px;}
+.xF_submit { background-color: #B11614;  border: 1px solid #000000;  font-family: Verdana, Arial, sans-serif, Helvetica;  font-style: normal;  text-decoration: none; font-size: 11px;  color: #FFFFFF;  }
+.xF_text { background-color: #e6e6e6;  border: 1px solid #000000;  font-family: Verdana, Arial, sans-serif, Helvetica;  font-style: normal;  text-decoration: none; font-size: 11px;}
+.xF_textarea { background-color: #e6e6e6;  border: 1px solid #000000;  font-family: Verdana, Arial, sans-serif, Helvetica;  font-style: normal;  text-decoration: none; font-size: 11px;}
+.xF_select { background-color: #c0c0c0;  border: 1px solid #000000;  font-family: Verdana, Arial, sans-serif, Helvetica;  font-style: normal; text-decoration: none; font-size: 11px;}
+.xF_title {color: #000000; font-size: 12px; font-family: Verdana, Arial, sans-serif, Helvetica;  font-style: normal;  text-decoration: none;}
+.xF_a_button:link, .xF_a_button:visited, .xF_a_button:hover, .xF_a_button:active { font-family: Verdana, Arial, sans-serif;  font-size: 11px; font-weight: normal; color: #F2F2F2; text-decoration:underline }
+
+a:link, a:visited, a:hover, a:active  { font-family: Verdana, Arial, sans-serif;  font-size: 11px; font-weight: normal; color: #000000; text-decoration:underline }
+TD {color: #000000; font-size: 11px; font-family: Verdana, Arial, sans-serif, Helvetica;  font-style: normal;  text-decoration: none;}

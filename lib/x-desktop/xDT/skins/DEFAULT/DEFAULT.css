@@ -1,0 +1,32 @@
+body {
+	scrollbar-3dlight-color : #E6E6E6;
+	scrollbar-arrow-color : #000000;
+	scrollbar-base-color : #000000;
+	scrollbar-darkshadow-color : #E6E6E6;
+	scrollbar-face-color : #ced6e7;
+	scrollbar-highlight-color : #FFFFFF;
+	scrollbar-shadow-color : #000000;
+	scrollbar-track-color : #E6E6E6;
+	background-color: #6B8CCE;
+}
+
+.xF_button { background-color: #E6E6E6; color: #000000; font-size: 11px; border: 1px outset transparent;  font-family: Verdana, Arial, sans-serif, Helvetica;  font-style: normal;  text-decoration: none; }
+.xF_submit { background-color: #ced6e7; color: #000000; font-size: 11px; border: 1px outset transparent;  font-family: Verdana, Arial, sans-serif, Helvetica;  font-style: normal;  text-decoration: none; }
+.xF_text { background-color: #c6c6bd; color: #000000; font-size: 11px; border: 1px solid #000000;  font-family: Verdana, Arial, sans-serif, Helvetica;  font-style: normal;  text-decoration: none; }
+.xF_select { background-color: #ced6e7; color: #000000; font-size: 11px; border: 1px solid #000000;  font-family: Verdana, Arial, sans-serif, Helvetica;  font-style: normal;  text-decoration: none; }
+.xF_textarea { background-color: #c6c6bd; color: #000000; font-size: 11px; border: 1px solid #000000;  font-family: Verdana, Arial, sans-serif, Helvetica;  font-style: normal;  text-decoration: none; }
+.xF_checkbox { border: 0px solid #000000;  font-family: Verdana, Arial, sans-serif, Helvetica;  font-style: normal;  text-decoration: none; }
+.xF_radio { border: 0px solid #000000;  font-family: Verdana, Arial, sans-serif, Helvetica;  font-style: normal;  text-decoration: none; }
+.xF_title {color: #FFFFFF; font-size: 12px; font-family: Verdana, Arial, sans-serif, Helvetica;  font-style: normal;  text-decoration: none;}
+.xF_a_button:link, .xF_a_button:visited, .xF_a_button:hover, .xF_a_button:active { font-family: Verdana, Arial, sans-serif;  font-size: 11px; font-weight: normal; color:#315A8c; text-decoration:underline }
+
+.xP_mLevel1, .xP_mLevel1:link, .xP_mLevel1:visited, .xP_mLevel1:hover, .xP_mLevel1:active { background-color: #ced6e7; color: #000000; font-size: 12px; font-family: Verdana, Arial, sans-serif, Helvetica;  font-style: normal;  text-decoration: none; }
+.xP_mLevel2, .xP_mLevel2:link, .xP_mLevel2:visited, .xP_mLevel2:hover, .xP_mLevel2:active { background-color: transparent; color: #000000; font-size: 12px; font-family: Verdana, Arial, sans-serif, Helvetica;  font-style: normal;  text-decoration: none; }
+.xP_mLevel3, .xP_mLevel3:link, .xP_mLevel3:visited, .xP_mLevel3:hover, .xP_mLevel3:active { background-color: transparent; color: #000000; font-size: 12px; font-family: Verdana, Arial, sans-serif, Helvetica;  font-style: normal;  text-decoration: none; }
+.xP_mLevel4, .xP_mLevel4:link, .xP_mLevel4:visited, .xP_mLevel4:hover, .xP_mLevel4:active { background-color: transparent; color: #000000; font-size: 12px; font-family: Verdana, Arial, sans-serif, Helvetica;  font-style: normal;  text-decoration: none; }
+.xP_mLevel5, .xP_mLevel5:link, .xP_mLevel5:visited, .xP_mLevel5:hover, .xP_mLevel5:active { background-color: transparent; color: #000000; font-size: 12px; font-family: Verdana, Arial, sans-serif, Helvetica;  font-style: normal;  text-decoration: none; }
+.xP_mLevel1_om {background-image: url(xpm_om.jpg)}
+.xP_mLevel2_om, .xP_mLevel3_om, .xP_mLevel4_om, .xP_mLevel5_om {background-color: #FFFFFF}
+
+a:link, a:visited, a:hover, a:active { font-family: Verdana, Arial, sans-serif;  font-size: 11px; font-weight: normal; color:#ffffff; text-decoration:underline }
+TD {color: #FFFFFF; font-size: 11px; font-family: Verdana, Arial, sans-serif, Helvetica;  font-style: normal;  text-decoration: none;}

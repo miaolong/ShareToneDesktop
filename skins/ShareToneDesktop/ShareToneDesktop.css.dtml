@@ -1,0 +1,57 @@
+/*==== Styles for roundbox ====*/
+.roundbox div.topleft {
+background: url(portlet_tl.gif) 0 0 no-repeat;
+}
+
+.roundbox div.top {
+background: url(portlet_p.gif) 0 0 repeat-x; width: 100%;
+}
+
+.roundbox div.topright {
+background: url(portlet_tr.gif) 100% 0 no-repeat; padding: 0.25em 1.25em 1.25em .5em
+}
+
+.roundbox div.left {
+background: url(portlet_p.gif) 0 0 repeat-y
+}
+
+.roundbox div.right {
+background: url(portlet_rs.gif) 100% 0 repeat-y
+}
+
+.roundbox div.bottomleft {
+background: url(portlet_bl.gif) 0 100% no-repeat
+}
+
+.roundbox div.bottom {
+background: url(portlet_bs.gif) 0 100% repeat-x
+}
+
+.roundbox div.bottomright {
+background: url(portlet_br.gif) 100% 100% no-repeat
+}
+
+/*====Styles for input====*/
+textarea {
+font: 100% Monaco, "Courier New", Courier, monospace;
+border: 1px dotted #ff8000;
+color: Black;
+background-color: #FFFAD0;
+width: 100%;
+}
+
+input {
+font-family: "Lucida Grande", Verdana, Lucida, Helvetica, Arial, sans-serif;
+visibility: visible;
+border: 1px dotted #ff8000;
+color: Black;
+background-color: #FFFAD0;
+vertical-align: middle;
+}
+
+select {
+border: 1px dotted #ff8000;
+color: Black;
+background-color: #FFFAD0;
+vertical-align: top;
+}

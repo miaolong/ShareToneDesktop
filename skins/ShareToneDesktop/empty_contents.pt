@@ -1,0 +1,13 @@
+<html>
+<head>
+</head>
+<body>
+	<div tal:omit-tag="" metal:use-macro="here/main_template/macros/master">
+	<metal:fill_master_content fill-slot="main">
+
+        <!-- fill content here -->
+
+    </metal:fill_master_content>div>
+    </div>
+</body>
+</html>

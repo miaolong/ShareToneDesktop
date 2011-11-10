@@ -1,0 +1,69 @@
+#master {
+    position: absolute;
+    width: 100%;
+    top: 90px;
+    left: -380px;
+    z-index: 1002;
+    visibility: visible;
+}
+
+#menu {
+    position: absolute;
+    width: 18px;
+    top: 80px;
+    left: 380px;
+    z-index: 1005;
+    visibility: visible;
+}
+
+#top {
+    position: absolute;
+    width: 380px;
+    top: 80px;
+    left: 0px;
+    z-index: 1005;
+    visibility: visible;
+}
+
+#screen {
+    position: absolute;
+    width: 380px;
+    top: 86px;
+    left: 0px;
+    z-index: 1005;
+    visibility: visible;
+}
+
+#screenlinks {
+    position: absolute;
+    width: 380px;
+    top: 86px;
+    left: 0px;
+    z-index: 1005;
+    visibility: visible;
+}
+
+.NavJump {
+    font-family: arial;
+    font-size: 10pt;
+    color: #80ba80;
+    text-decoration: none;
+}
+
+a:link.NavJump {
+    color: #80ba80;
+}
+
+a:visited.NavJump {
+    color: #80ba80;
+}
+
+a:active.NavJump {
+    text-decoration: none;
+    color: #deacc0;
+}
+
+a:hover.NavJump {
+    text-decoration: none;
+    color: #deacc0;
+}

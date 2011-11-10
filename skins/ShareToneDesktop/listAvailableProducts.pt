@@ -1,0 +1,19 @@
+## Script (Python) "listAvailableProducts"
+##bind container=container
+##bind context=context
+##bind namespace=
+##bind script=script
+##bind subpath=traverse_subpath
+##parameters=password, confirm, domains=None
+##title=Change password
+##
+
+P = context.portal_quickinstaller.listInstallableProducts() + context.portal_quickinstaller.listInstalledProducts()
+P_list = [ [ status_hasError_id['id'], context.portal_quickinstaller.getProductVersion(status_hasError_id['id']) or ''] for status_hasError_id in P ]
+P_list.sort()
+
+print '<table><tr align="left"><th>Product Name</th><th>Version</th></tr>'
+for p, v in P_list:
+    print '<tr><td>' + p + '</td><td>' + v + '</td></tr>'
+print '</table>'
+return printed

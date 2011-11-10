@@ -1,0 +1,59 @@
+BODY {
+    padding-right: 0px;
+    padding-left: 0px;
+    /*background: url(background.gif) #5998fd no-repeat right top;*/
+    padding-bottom: 0px;
+    margin: 0px;
+    font: 12px arial, tahoma, sans-serif;
+    overflow: hidden;
+    cursor: default;
+    /*color: #ffffff;*/
+    padding-top: 0px;
+    text-align: center
+}
+
+ACRONYM {
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    border-bottom-style: none
+}
+
+.icon {
+    font-size: 9px;
+    cursor: default
+}
+
+.icon P {
+    padding-right: 1px;
+    padding-left: 1px;
+    padding-bottom: 1px;
+    width: 50px;
+    padding-top: 1px
+}
+
+.icon SPAN {
+    padding-right: 1px;
+    margin-top: 5px;
+    display: block;
+    padding-left: 1px;
+    padding-bottom: 1px;
+    width: 50px;
+    padding-top: 1px
+}
+
+#newicon {
+    padding-right: 4px;
+    padding-left: 4px;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    background-repeat: no-repeat
+}
+
+#newicon IMG {
+    position: relative
+}
+
+#browser {
+    display: none
+}

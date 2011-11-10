@@ -1,0 +1,41 @@
+h1 {
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+p {
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+li {
+    font-family: sans-serif;
+    font-size: 11px;
+}
+
+#brojevi {
+    background-color: orange;
+    color: blue;
+}
+
+#tocke {
+    background-color: black;
+}
+
+#digital TABLE {
+    border: 2px inset gray;
+    font-size: 20;
+    background-color: pink;
+}
+
+#hour {
+    background-color: red;
+}
+
+#minut {
+    background-color: yellow;
+}
+
+#second {
+    background-color: white;
+}

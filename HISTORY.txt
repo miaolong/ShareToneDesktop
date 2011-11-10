@@ -1,0 +1,5 @@
+0.4.0
+Implement the desktop profile support for authenticated user. 
+
+Official Release 0.1.5
+	initial release

@@ -1,0 +1,18 @@
+<html>
+<header>
+<script type="text/javascript" src="../common/utils.js"></script>
+</header>
+<body>
+<script type="text/javascript">
+	function pageListener(pageObject){
+	    document.getElementById("msg").innerHTML = pageObject['content'];
+	}
+	headers = {"test-header1":123, "test-header2":'kkkkkkks'};
+	body = 'cc1=100&cc2="rrrtts"';
+	loadPage("http://localhost:8080/Ally/print_request", pageListener, body, headers, true);
+</script>
+
+<div id="msg"></div>
+
+</body>
+</html>

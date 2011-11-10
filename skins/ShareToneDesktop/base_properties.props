@@ -1,0 +1,52 @@
+# Please note that this approach will gradually be phased out, probably in
+# Plone 2.2 or 2.3. Using DTML in CSS is something we want to stop doing.
+
+DEPRECATED:string=This approach is deprecated and will be phased out in Plone 2.2 or 2.3
+
+title:string=Plone's color, font, logo and border defaults
+
+plone_skin:string=ShareTone Desktop
+
+logoName:string=logo.gif
+
+fontFamily:string="Lucida Grande", Verdana, Lucida, Helvetica, Arial, sans-serif
+fontBaseSize:string=75%
+fontColor:string=Black
+fontSmallSize:string=90%
+
+backgroundColor:string=#ffffd0
+
+linkColor:string=#865b30
+linkActiveColor:string=Red
+linkVisitedColor:string=Brown
+
+borderWidth:string=0px
+borderStyle:string=solid
+borderStyleAnnotations:string=dashed
+
+globalBorderColor:string=#ff8000
+globalBackgroundColor:string=#FFDE88
+globalFontColor:string=#865b30
+
+headingFontFamily:string=Georgia, "Lucida Grande", Verdana, Lucida, Helvetica, Arial, sans-serif
+
+contentViewBorderColor:string=#ff8000
+contentViewBackgroundColor:string=#FFDE88
+contentViewFontColor:string=#578308
+
+inputFontColor:string=Black
+
+textTransform:string=
+
+evenRowBackgroundColor:string=#ffeba1 
+oddRowBackgroundColor:string=transparent
+
+notifyBorderColor:string=#ffa500
+notifyBackgroundColor:string=#FFDE88
+
+discreetColor:string=#76797c
+helpBackgroundColor:string=#ffffe1
+
+portalMinWidth:string=70em
+columnOneWidth:string=16em
+columnTwoWidth:string=16em

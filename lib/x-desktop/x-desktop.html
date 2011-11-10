@@ -1,0 +1,55 @@
+<!DOCTYPE HTML PUBLIC "-//SoftQuad Software//DTD HoTMetaL PRO 6.0::19990601::extensions to HTML 4.0//EN" "hmpro6.dtd">
+<HTML> 
+	<HEAD> 
+		<TITLE>Top</TITLE>
+<LINK REL="stylesheet" TYPE="text/css" HREF="x-desktop.css">
+<script>
+ var LOADED = 0;
+ var LOADMESSAGE = "Cross-Browser Core Library";
+ var lw = window.open('loading.html','Loading','resizable=0,location=0,directories=0,status=1,menubar=0,scrollbars=0,toolbar=0,width=400,height=200');
+</script>
+
+<script type='text/javascript' src='cbe_core.js'></script>
+<script>LOADMESSAGE = "Cross-Browser Event Library";</script>
+<script type='text/javascript' src='cbe_event.js'></script>
+<script>LOADMESSAGE = "Cross-Browser Slide Library";</script>
+<script type='text/javascript' src='cbe_slide.js'></script>
+<script>LOADMESSAGE = "x-desktop WIN skin";</script>
+<script type='text/javascript' src='x-desktop_skin_WIN.js'></script>
+<script>LOADMESSAGE = "x-desktop OSX skin";</script>
+<script type='text/javascript' src='x-desktop_skin_OSX.js'></script>
+<script>LOADMESSAGE = "x-desktop OSXA skin";</script>
+<script type='text/javascript' src='x-desktop_skin_OSXA.js'></script>
+<script>LOADMESSAGE = "x-desktop KDE skin";</script>
+<script type='text/javascript' src='x-desktop_skin_KDE.js'></script>
+<script>LOADMESSAGE = "x-desktop GNOME skin";</script>
+<script type='text/javascript' src='x-desktop_skin_GNOME.js'></script>
+<script>LOADMESSAGE = "x-desktop SBO skin";</script>
+<script type='text/javascript' src='x-desktop_skin_SBO.js'></script>
+<script>LOADMESSAGE = "x-desktop XP skin";</script>
+<script type='text/javascript' src='x-desktop_skin_XP.js'></script>
+<script>LOADMESSAGE = "x-desktop AEON skin";</script>
+<script type='text/javascript' src='x-desktop_skin_AEON.js'></script>
+<script>LOADMESSAGE = "x-desktop REDHAT skin";</script>
+<script type='text/javascript' src='x-desktop_skin_REDHAT.js'></script>
+<script>LOADMESSAGE = "x-desktop NONE skin";</script>
+<script type='text/javascript' src='x-desktop_skin_NONE.js'></script>
+<script>LOADMESSAGE = "x-desktop SUSE skin";</script>
+<script type='text/javascript' src='x-desktop_skin_SUSE.js'></script>
+<script>LOADMESSAGE = "x-desktop core library";</script>
+<script type='text/javascript' src='x-desktop_core.js'></script>
+<script>LOADMESSAGE = "x-desktop inititializion";</script>
+	</HEAD> 
+<BODY LEFTMARGIN="0" TOPMARGIN="0" MARGINWIDTH="0" MARGINHEIGHT="0" bgcolor="#FFffff">
+<script>
+ var xDT = new xDesktop();
+ function start() {
+  xDT.desktop.init();
+  xDT.addWindow('test','Feature menu',350,520,'20,20',0);
+  xDT.url("test",'startup.html');
+  xDT.show("test");
+  xDT.window.onClose('test',"xDT.alert('Please do not close me !')");
+ }
+</script>
+</BODY>
+</HTML>

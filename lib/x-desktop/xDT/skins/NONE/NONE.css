@@ -1,0 +1,28 @@
+body {
+	scrollbar-3dlight-color : #5A8EC6;
+	scrollbar-arrow-color : #ffffff;
+	scrollbar-base-color : #000000;
+	scrollbar-darkshadow-color : #5A8EC6;
+	scrollbar-face-color : #5A8EC6;
+	scrollbar-highlight-color : #FFFFFF;
+	scrollbar-shadow-color : #ffffff;
+	scrollbar-track-color : #8EB4DA;
+	background-color: #EFEFE7;
+}
+
+.xF_button { background-color: #f7f7ef; color: #000000; font-size: 11px; border: 1px solid #5A8EC6;  font-family: Verdana, Arial, sans-serif, Helvetica;  font-style: normal;  text-decoration: none; }
+.xF_submit { background-color: #f7f7ef; color: #000000; font-size: 11px; border: 1px solid #5A8EC6;  font-family: Verdana, Arial, sans-serif, Helvetica;  font-style: normal;  text-decoration: none; }
+.xF_text { background-color: #F3F1E9; color: #000000; font-size: 11px; border: 1px solid #000000;  font-family: Verdana, Arial, sans-serif, Helvetica;  font-style: normal;  text-decoration: none; }
+.xF_select { background-color: #8EB4DA; color: #000000; font-size: 11px; border: 1px solid #000000;  font-family: Verdana, Arial, sans-serif, Helvetica;  font-style: normal;  text-decoration: none; }
+.xF_textarea { background-color: #F3F1E9; color: #000000; font-size: 11px; border: 1px solid #000000;  font-family: Verdana, Arial, sans-serif, Helvetica;  font-style: normal;  text-decoration: none; }
+.xF_checkbox { border: 0px solid #000000;  font-family: Verdana, Arial, sans-serif, Helvetica;  font-style: normal;  text-decoration: none; }
+.xF_radio { border: 0px solid #000000;  font-family: Verdana, Arial, sans-serif, Helvetica;  font-style: normal;  text-decoration: none; }
+.xF_title {color: #000000; font-size: 12px; font-family: Verdana, Arial, sans-serif, Helvetica;  font-style: normal;  text-decoration: none;}
+.xF_a_button:link, .xF_a_button:visited, .xF_a_button:hover, .xF_a_button:active { font-family: Verdana, Arial, sans-serif;  font-size: 11px; font-weight: normal; color: #000000; text-decoration:underline }
+
+a:link, a:visited { font-family: Verdana, Arial, sans-serif, Helvetica;  font-size: 11px; font-weight: normal; color: #5A8EC6; text-decoration:none; }
+a:hover { font-family: Verdana, Arial, sans-serif, Helvetica;  font-size: 11px; font-weight: normal; color: #5A8EC6; text-decoration:underline;    }
+a:active  { font-family: Verdana, Arial, sans-serif, Helvetica; font-size: 11px; font-weight: normal; color: #5A8EC67; text-decoration:none;    }
+TD {color: #000000; font-size: 12px; font-family: Verdana, Arial, sans-serif, Helvetica;  font-style: normal;  text-decoration: none;}
+.xF_a_menu { font-family: Verdana, Arial, sans-serif;  font-size: 11px; font-weight: normal; color: #FFFFFF; text-decoration:none }
+.xF_a_menu:link, .xF_a_menu:visited, .xF_a_menu:active, .xF_a_menu:hover  { font-family: Verdana, Arial, sans-serif;  font-size: 11px; font-weight: normal; color: #FFFFFF; text-decoration:none }

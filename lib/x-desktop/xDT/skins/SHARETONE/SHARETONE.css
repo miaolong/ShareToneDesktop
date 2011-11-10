@@ -1,0 +1,96 @@
+/*body*/
+html {
+    scrollbar-3dlight-color: #555555;
+    scrollbar-arrow-color: #ffffff;
+    scrollbar-base-color: #ffffff;
+    scrollbar-darkshadow-color: #ffffff;
+    scrollbar-face-color: #ECBF5B;
+    scrollbar-highlight-color: #ECBF5B;
+    scrollbar-shadow-color: #555555;
+    scrollbar-track-color: #ffffff;
+    background-color: #f2f2f2;
+    font-family: verdana, arial, sans-serif, helvetica;
+    font-style: normal;
+    text-decoration: none;
+    color: #000000;
+    font-size: 11px;
+}
+
+.xF_button {
+    background-color: #ECBF5B;
+    border: 1px solid #000000;
+    font-family: verdana, arial, sans-serif, helvetica;
+    font-style: normal;
+    text-decoration: none;
+    color: #555555;
+    font-size: 11px;
+}
+
+.xF_submit {
+    background-color: #ECBF5B;
+    border: 1px solid #000000;
+    font-family: verdana, arial, sans-serif, helvetica;
+    font-style: normal;
+    text-decoration: none;
+    font-size: 11px;
+    color: #555555;
+}
+
+.xF_text {
+    background-color: #e6e6e6;
+    border: 1px solid #000000;
+    font-family: verdana, arial, sans-serif, helvetica;
+    font-style: normal;
+    text-decoration: none;
+    font-size: 11px;
+}
+
+.xF_textarea {
+    background-color: #e6e6e6;
+    border: 1px solid #000000;
+    font-family: verdana, arial, sans-serif, helvetica;
+    font-style: normal;
+    text-decoration: none;
+    font-size: 11px;
+}
+
+.xF_select {
+    background-color: #ffffd0;
+    border: 1px solid #000000;
+    font-family: verdana, arial, sans-serif, helvetica;
+    font-style: normal;
+    text-decoration: none;
+    font-size: 11px;
+}
+
+.xF_title {
+    color: #000000;
+    font-size: 12px;
+    font-family: verdana, arial, sans-serif, helvetica;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.xF_a_button:link,.xF_a_button:visited,.xF_a_button:hover,.xF_a_button:active {
+    font-family: verdana, arial, sans-serif;
+    font-size: 11px;
+    font-weight: normal;
+    color: #f2f2f2;
+    text-decoration: underline
+}
+
+a:link,a:visited,a:hover,a:active {
+    font-family: verdana, arial, sans-serif;
+    font-size: 11px;
+    font-weight: normal;
+    color: #000000;
+    text-decoration: underline
+}
+
+TD {
+    color: #000000;
+    font-size: 11px;
+    font-family: verdana, arial, sans-serif, helvetica;
+    font-style: normal;
+    text-decoration: none;
+}

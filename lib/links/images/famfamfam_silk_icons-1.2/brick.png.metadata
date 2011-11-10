@@ -1,0 +1,3 @@
+[default]
+title=brick
+cache = HTTPCache

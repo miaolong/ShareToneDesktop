@@ -1,0 +1,3 @@
+[default]
+title=site_icon
+cache = HTTPCache

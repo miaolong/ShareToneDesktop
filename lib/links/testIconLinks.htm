@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>Desktop</title>
+        <meta http-equiv=Content-Type content="text/html; charset=utf-8">
+        <link rel="stylesheet" type="text/css" href="iconlinks.css">
+        <script src="iconlinks.js" type="text/javascript"></script>
+        <script src="pngfix.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <div id="dynamic">
+            <ul>
+                <li>
+                    <a href="#" onclick="javascript:addIcon('flash', 'Macromedia Flash', 'http://www.macromedia.com')">Add Icon</a>
+                </li>
+                <li>
+                    <a href="#" onclick="javascript:removeIcon()">Remove Selected Icon</a>
+                </li>
+            </ul>
+        </div>
+        <!-- Icons -->
+        <div id=icons>
+            <!-- Row #1 -->
+            <div class=icon onmousedown="dragStart(event, 'google')" id=google ondblclick="focusOff(); go('http://www.google.com');" style="POSITION: absolute; LEFT: 125px; TOP: 150px">
+                <acronym title=Google><img alt="" src="images/famfamfam_silk_icons-1.2/world.png"><span class=label><div>Google</div></span></acronym>
+            </div>
+            <div class=icon onmousedown="dragStart(event, 'mail')" id=mail ondblclick="focusOff(); go('http://www.gmail.google.com');" style="POSITION: absolute; LEFT: 125px; TOP: 225px">
+                <acronym title=Gmail><img alt="" src="images/famfamfam_silk_icons-1.2/email.png"><span class=label><div>Gmail</div></span></acronym>
+            </div>
+            <div class=icon onmousedown="dragStart(event, 'firefox')" id=firefox ondblclick="focusOff(); go('http://www.mozilla.org/products/firefox');" style="POSITION: absolute; LEFT: 125px; TOP: 300px">
+                <acronym title="Mozilla Firefox"><img alt="" src="images/famfamfam_silk_icons-1.2/browser_firefox.png"><span class=label><div>Mozilla Firefox</div></span></acronym>
+            </div>
+            <div class=icon onmousedown="dragStart(event, 'help')" id=help ondblclick="focusOff(); go('mailto:joepestro@gmail.com');" style="POSITION: absolute; LEFT: 125px; TOP: 400px">
+                <acronym title=Help><img alt="" src="images/famfamfam_silk_icons-1.2/user_comment.png"><span class=label><div>Help</div></span></acronym>
+            </div>
+            <!-- Row #2 -->
+            <div class=icon onmousedown="dragStart(event, 'awaygrabber')" id=awaygrabber ondblclick="focusOff(); go('http://www.awaygrabber.com/');" style="POSITION: absolute; LEFT: 200px; TOP: 150px">
+                <acronym title=AwayGrabber><img alt="" src="images/famfamfam_mini_icons/comment_yellow.gif"><span class=label><div>Away Grabber</div></span></acronym>
+            </div>
+            <div class=icon onmousedown="dragStart(event, 'weather')" id=weather ondblclick="focusOff(); go('http://www.weather.com');" style="POSITION: absolute; LEFT: 200px; TOP: 225px">
+                <acronym title=Weather><img alt="" src="images/famfamfam_silk_icons-1.2/weather_lightning.png"><span class=label><div>Weather</div></span></acronym>
+            </div>
+        </div>
+    </body>
+</html>
